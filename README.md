@@ -1,13 +1,3 @@
-# WaytoAGI小鹿 · Codex 桌面宠物
-
-戴着耳机、穿着 AGI 卫衣的毛绒小鹿，陪你写代码、等输入、看结果。包含 **9 组基础动作、16 个朝向**，可直接安装到支持自定义 V2 宠物的 Codex 桌面版。
-
-<p align="center">
-  <img src="assets/previews/waving.gif" width="192" height="208" alt="WaytoAGI小鹿挥手" />
-  <img src="assets/previews/running-right.gif" width="192" height="208" alt="WaytoAGI小鹿向右移动" />
-  <img src="assets/previews/look-loop.gif" width="192" height="208" alt="WaytoAGI小鹿环顾四周" />
-</p>
-
 ## 关于 WaytoAGI 社区
 
 **WaytoAGI（通往 AGI 之路）** 是面向 AI 学习者、创作者与实践者的开放知识库和共学社区，连接 AI 知识、真实实践与城市共学，希望让更多人少走弯路，因 AI 而强大。
@@ -20,6 +10,16 @@
 - 微信公众号：**通往AGI之路**
 
 以上为社区官方公开资料的简要整理，核对日期：2026 年 11 月 22 日；活动与参与方式以官方页面为准。本仓库是个人制作并分享的 Codex 桌宠，社区介绍不代表官方发布或授权声明。
+
+# WaytoAGI小鹿 · Codex 桌面宠物
+
+戴着耳机、穿着 AGI 卫衣的毛绒小鹿，陪你写代码、等输入、看结果。包含 **9 组基础动作、16 个朝向**，可直接安装到支持自定义 V2 宠物的 Codex 桌面版。
+
+<p align="center">
+  <img src="assets/previews/waving.gif" width="192" height="208" alt="WaytoAGI小鹿挥手" />
+  <img src="assets/previews/running-right.gif" width="192" height="208" alt="WaytoAGI小鹿向右移动" />
+  <img src="assets/previews/look-loop.gif" width="192" height="208" alt="WaytoAGI小鹿环顾四周" />
+</p>
 
 ## 安装
 

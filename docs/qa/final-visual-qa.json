@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "reviewed_by": "independent final QA worker",
+  "qa_note": "最终接触表、16朝向、动作序列及GIF元数据一致；身份和正向AGI稳定，九组动作可辨。无裁切、内部透明断层、错误主方向或明显比例跳变。",
+  "review_warnings": [
+    "部分斜向提示较轻",
+    "两处转头间隔不均但脚底与身体尺度稳定",
+    "审查轻微换脚；失败耳形随表情变化"
+  ],
+  "minor_resolution_accepted": true,
+  "repair_rows": []
+}

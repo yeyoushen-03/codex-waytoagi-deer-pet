@@ -1,0 +1,21 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "failed_checks": [
+    "337.5 horizontal axis ambiguous in blind majority",
+    "067.5 vertical axis ambiguous in blind majority",
+    "337.5 vertical axis ambiguous in blind majority",
+    "292.5 vertical axis ambiguous in blind majority",
+    "157.5->180 pixel-difference local outlier",
+    "247.5->270 pixel-difference local outlier"
+  ],
+  "evidence": [
+    "All hard cardinal blind classifications correct; deterministic validation ok with no errors or unconfirmed cardinals.",
+    "Labeled normal-size loop follows up→right→down→left→up; intermediate warnings are subtle near-axis cues, without opposite-quadrant pose or reversal.",
+    "337.5 approaches frontal-up from the left arc; head lift and eyelid/eye placement differ from neutral, with a weak left component.",
+    "067.5 and292.5 are near-horizontal head turns with weak upward pitch; ordered neighboring poses confirm appropriate arc.",
+    "Independent row9 androw10 final-cell reviews found no hard failure, clipping or conspicuous scale pop; torso yaw is mild.",
+    "Continuity has no interior alpha holes; flagged pairs center movement6.71px/7.02px, area ratios1.026/1.014; no visible ground-anchor jump."
+  ]
+}

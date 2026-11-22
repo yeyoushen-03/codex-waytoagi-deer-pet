@@ -17,5 +17,11 @@
     "067.5 and292.5 are near-horizontal head turns with weak upward pitch; ordered neighboring poses confirm appropriate arc.",
     "Independent row9 androw10 final-cell reviews found no hard failure, clipping or conspicuous scale pop; torso yaw is mild.",
     "Continuity has no interior alpha holes; flagged pairs center movement6.71px/7.02px, area ratios1.026/1.014; no visible ground-anchor jump."
-  ]
+  ],
+  "provenance": {
+    "reviewed_version": "1.0.0",
+    "reviewed_sprite_sha256": "4012e68c7ca78e9cb132df46fdb4dcbc365874c10f239af1a484109c1e65f880",
+    "applies_to": "Original coherent look poses retained in 1.0.1 with common registration and material correction; see final direction semantics for fresh review.",
+    "not_a_fresh_blind_test": true
+  }
 }

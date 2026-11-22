@@ -1,160 +1,209 @@
 {
   "ok": true,
+  "visual_qa": "pass",
   "verdict": "warning",
+  "reviewed_by": "independent visual consistency reviewer",
+  "review_date": "2026-11-23",
+  "sprite_sha256": "7ca6b375400455f922726f095596c53b410edabfe32788e0a8e1130d7fbfbab7",
+  "coordinate_system": "Screen/viewer coordinates:000 up,090 right,180 down,270 left.",
   "directions": [
     {
-      "direction": "000",
+      "degrees": 0,
+      "row_index": 9,
+      "column_index": 0,
       "expected": "up",
       "observed": "up",
       "verdict": "pass",
-      "reason": "正面居中；鼻口上扬，眼睛朝上",
-      "horizontal_evidence": "正面居中",
-      "vertical_evidence": "鼻口上扬，眼睛朝上"
+      "reason": "Pupils and muzzle lift; face is presented upward.",
+      "horizontal_evidence": "Frontal and approximately centered; no principal horizontal component.",
+      "vertical_evidence": "Pupils sit toward upper eye openings and muzzle/chin lift upward."
     },
     {
-      "direction": "022.5",
+      "degrees": 22.5,
+      "row_index": 9,
+      "column_index": 1,
+      "expected": "up-right",
+      "observed": "up-right, mostly up",
+      "verdict": "pass",
+      "reason": "Upward gaze begins a small clockwise turn toward screen-right.",
+      "horizontal_evidence": "Face and nose shift slightly to the viewer right of frontal center.",
+      "vertical_evidence": "Eyes/muzzle retain the upward lift from000."
+    },
+    {
+      "degrees": 45,
+      "row_index": 9,
+      "column_index": 2,
       "expected": "up-right",
       "observed": "up-right",
       "verdict": "pass",
-      "reason": "鼻口脸面微右；下巴仍抬起，眼线向上",
-      "horizontal_evidence": "鼻口脸面微右",
-      "vertical_evidence": "下巴仍抬起，眼线向上"
+      "reason": "Three-quarter face angles right while gaze remains raised.",
+      "horizontal_evidence": "Nose and visible pupils lie toward screen-right within the head silhouette.",
+      "vertical_evidence": "Muzzle remains lifted; eyes aim above horizontal."
     },
     {
-      "direction": "045",
-      "expected": "up-right",
-      "observed": "right with subtle up",
-      "verdict": "warning",
-      "reason": "鼻口突出右侧；鼻口略抬，向上分量轻",
-      "horizontal_evidence": "鼻口突出右侧",
-      "vertical_evidence": "鼻口略抬，向上分量轻"
+      "degrees": 67.5,
+      "row_index": 9,
+      "column_index": 3,
+      "expected": "right-up",
+      "observed": "right with upward component",
+      "verdict": "pass",
+      "reason": "Head approaches the right cardinal without a downward bow.",
+      "horizontal_evidence": "Three-quarter/profile muzzle protrudes toward the screen-right edge.",
+      "vertical_evidence": "Eye/muzzle angle retains a small upward component."
     },
     {
-      "direction": "067.5",
-      "expected": "up-right",
-      "observed": "right with weak up",
-      "verdict": "warning",
-      "reason": "明显右侧脸与右鼻尖；头轻抬，单看上下不明确",
-      "horizontal_evidence": "明显右侧脸与右鼻尖",
-      "vertical_evidence": "头轻抬，单看上下不明确"
-    },
-    {
-      "direction": "090",
-      "expected": "right",
+      "degrees": 90,
+      "row_index": 9,
+      "column_index": 4,
+      "expected": "screen-right",
       "observed": "screen-right",
       "verdict": "pass",
-      "reason": "鼻尖在头中心右侧，视线向右；基本平视",
-      "horizontal_evidence": "鼻尖在头中心右侧，视线向右",
-      "vertical_evidence": "基本平视"
+      "reason": "Clear right-facing profile; opposing270 is visibly left-facing.",
+      "horizontal_evidence": "Nose tip projects toward the viewer screen-right and pupils face that edge.",
+      "vertical_evidence": "Head is near level, with no principal up/down component."
     },
     {
-      "direction": "112.5",
+      "degrees": 112.5,
+      "row_index": 9,
+      "column_index": 5,
       "expected": "down-right",
       "observed": "down-right",
       "verdict": "pass",
-      "reason": "鼻口仍向右；额头顶面增多，视线鼻口向下",
-      "horizontal_evidence": "鼻口仍向右",
-      "vertical_evidence": "额头顶面增多，视线鼻口向下"
+      "reason": "Right-facing family begins bowing down.",
+      "horizontal_evidence": "Muzzle/pupils remain on the screen-right-facing side.",
+      "vertical_evidence": "Head and nose angle downward; eye line lowers."
     },
     {
-      "direction": "135",
+      "degrees": 135,
+      "row_index": 9,
+      "column_index": 6,
       "expected": "down-right",
       "observed": "down-right",
       "verdict": "pass",
-      "reason": "脸面鼻尖右偏；下巴朝胸口，眼睛下视",
-      "horizontal_evidence": "脸面鼻尖右偏",
-      "vertical_evidence": "下巴朝胸口，眼睛下视"
+      "reason": "Right/down head bow deepens.",
+      "horizontal_evidence": "Nose remains to the viewer right of head center.",
+      "vertical_evidence": "Muzzle descends and eyelids follow a lowered gaze."
     },
     {
-      "direction": "157.5",
+      "degrees": 157.5,
+      "row_index": 9,
+      "column_index": 7,
       "expected": "down-right",
-      "observed": "down-right near down",
-      "verdict": "pass",
-      "reason": "鼻口仍位于脸面右侧；明显低头，额头朝前",
-      "horizontal_evidence": "鼻口仍位于脸面右侧",
-      "vertical_evidence": "明显低头，额头朝前"
+      "observed": "down-right, exact approach to down subtle",
+      "verdict": "warning",
+      "reason": "Correct quadrant, but the following straight-down interval moves more than neighboring steps.",
+      "horizontal_evidence": "Visible profile and nose remain right of head center.",
+      "vertical_evidence": "Head is bowed and muzzle/eye line point down; exact angular spacing is subtle."
     },
     {
-      "direction": "180",
+      "degrees": 180,
+      "row_index": 10,
+      "column_index": 0,
       "expected": "down",
       "observed": "down",
       "verdict": "pass",
-      "reason": "面部大致居中；额头突出，眼睛鼻口朝胸口",
-      "horizontal_evidence": "面部大致居中",
-      "vertical_evidence": "额头突出，眼睛鼻口朝胸口"
+      "reason": "Clearly centered forward/down bow; not neutral or upward.",
+      "horizontal_evidence": "Head returns to centered bilateral ears, without a principal horizontal aim.",
+      "vertical_evidence": "Nose points toward the chest, eyelids lower and upper forehead/crown surface becomes visible."
     },
     {
-      "direction": "202.5",
+      "degrees": 202.5,
+      "row_index": 10,
+      "column_index": 1,
       "expected": "down-left",
-      "observed": "down-left",
-      "verdict": "pass",
-      "reason": "鼻口面部轻微左偏；眼睛下视，鼻口靠近领口",
-      "horizontal_evidence": "鼻口面部轻微左偏",
-      "vertical_evidence": "眼睛下视，鼻口靠近领口"
-    },
-    {
-      "direction": "225",
-      "expected": "down-left",
-      "observed": "down-left",
-      "verdict": "pass",
-      "reason": "鼻尖突出左侧，远侧面遮挡；额头朝前，鼻口眼睛降低",
-      "horizontal_evidence": "鼻尖突出左侧，远侧面遮挡",
-      "vertical_evidence": "额头朝前，鼻口眼睛降低"
-    },
-    {
-      "direction": "247.5",
-      "expected": "down-left",
-      "observed": "left with slight down",
+      "observed": "down-left, horizontal cue subtle",
       "verdict": "warning",
-      "reason": "鼻口朝左；下巴略低，接近平视",
-      "horizontal_evidence": "鼻口朝左",
-      "vertical_evidence": "下巴略低，接近平视"
+      "reason": "Downward family begins turning left; near-down leftward component is restrained.",
+      "horizontal_evidence": "Nose and one-eye emphasis begin shifting to viewer screen-left of head center.",
+      "vertical_evidence": "Crown remains exposed and muzzle stays lowered toward chest."
     },
     {
-      "direction": "270",
-      "expected": "left",
+      "degrees": 225,
+      "row_index": 10,
+      "column_index": 2,
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "reason": "Clear lower-left quadrant between down and left.",
+      "horizontal_evidence": "Nose projects to screen-left and visible eye follows that side.",
+      "vertical_evidence": "Head bow and lowered muzzle retain a downward component."
+    },
+    {
+      "degrees": 247.5,
+      "row_index": 10,
+      "column_index": 3,
+      "expected": "left-down",
+      "observed": "left/down",
+      "verdict": "pass",
+      "reason": "Approaches left cardinal while still slightly bowed.",
+      "horizontal_evidence": "Muzzle projects toward screen-left in a left-facing profile family.",
+      "vertical_evidence": "Eye/muzzle line remains slightly below horizontal."
+    },
+    {
+      "degrees": 270,
+      "row_index": 10,
+      "column_index": 4,
+      "expected": "screen-left",
       "observed": "screen-left",
       "verdict": "pass",
-      "reason": "鼻尖在头左轮廓，视线向左；基本平视",
-      "horizontal_evidence": "鼻尖在头左轮廓，视线向左",
-      "vertical_evidence": "基本平视"
+      "reason": "Clear left-facing profile, opposite the right cardinal.",
+      "horizontal_evidence": "Nose tip and pupil aim toward viewer screen-left; muzzle protrudes left of head center.",
+      "vertical_evidence": "Head is near level; the rise from247.5 is somewhat quicker than adjacent steps."
     },
     {
-      "direction": "292.5",
-      "expected": "up-left",
-      "observed": "left with subtle up",
-      "verdict": "warning",
-      "reason": "鼻口脸面向左；相对270下巴鼻口略抬",
-      "horizontal_evidence": "鼻口脸面向左",
-      "vertical_evidence": "相对270下巴鼻口略抬"
-    },
-    {
-      "direction": "315",
+      "degrees": 292.5,
+      "row_index": 10,
+      "column_index": 5,
       "expected": "up-left",
       "observed": "up-left",
-      "verdict": "warning",
-      "reason": "鼻尖脸面明显左转；下巴眼线抬高，但与前姿接近",
-      "horizontal_evidence": "鼻尖脸面明显左转",
-      "vertical_evidence": "下巴眼线抬高，但与前姿接近"
+      "verdict": "pass",
+      "reason": "Left profile begins lifting toward upper-left.",
+      "horizontal_evidence": "Face/muzzle remain directed toward the screen-left edge.",
+      "vertical_evidence": "Chin and muzzle lift, with pupils directed upward."
     },
     {
-      "direction": "337.5",
+      "degrees": 315,
+      "row_index": 10,
+      "column_index": 6,
       "expected": "up-left",
-      "observed": "near up with weak left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "reason": "Upper-left three-quarter pose continues toward front/up.",
+      "horizontal_evidence": "Visible muzzle remains left of head center and eyes retain leftward aim.",
+      "vertical_evidence": "Muzzle and pupils are raised above a neutral eye line."
+    },
+    {
+      "degrees": 337.5,
+      "row_index": 10,
+      "column_index": 7,
+      "expected": "up-left",
+      "observed": "mostly up with slight left component",
       "verdict": "warning",
-      "reason": "轻微左向面部偏移，盲测难确认；眼线下巴较默认略抬，能衔接000",
-      "horizontal_evidence": "轻微左向面部偏移，盲测难确认",
-      "vertical_evidence": "眼线下巴较默认略抬，能衔接000"
+      "reason": "Near-up left component is subtle, but the ordered return to000 remains coherent.",
+      "horizontal_evidence": "Slight asymmetry and muzzle/pupil offset retain a small screen-left component.",
+      "vertical_evidence": "Strong upward eye/muzzle lift dominates the pose."
     }
   ],
-  "continuity": {
-    "hard_failure": false,
-    "157.5_to_180": "头部变化较大，但脚底卫衣裤子和比例保持，轻微间隔不均",
-    "247.5_to_270": "更明显左侧脸，无身份变化裁切或身体跳位",
-    "337.5_to_000": "微左抬头进入居中抬头，尺度脚底连续",
-    "clipping": false,
-    "interior_alpha_holes": false,
-    "conspicuous_scale_pop": false
-  },
-  "reviewed_by": "independent final QA worker"
+  "review_warnings": [
+    {
+      "scope": "look",
+      "degrees": [
+        157.5,
+        180
+      ],
+      "severity": "minor",
+      "reason": "Head centering and downward bow advance more at this interval than at adjacent ones; direction remains correct, without a scale or color flash."
+    },
+    {
+      "scope": "look",
+      "degrees": [
+        247.5,
+        270
+      ],
+      "severity": "minor",
+      "reason": "Rotation rises into the left cardinal somewhat faster than neighboring intervals; no reversal or wrong principal quadrant."
+    }
+  ],
+  "hard_failures": [],
+  "evidence_note": "All16 cleaned final cells inspected in native-size ordered strips; prior blind results were not used as a substitute for this semantic review."
 }

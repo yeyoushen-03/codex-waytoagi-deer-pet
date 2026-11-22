@@ -1,13 +1,103 @@
 {
   "ok": true,
   "visual_qa": "pass",
-  "reviewed_by": "independent final QA worker",
-  "qa_note": "最终接触表、16朝向、动作序列及GIF元数据一致；身份和正向AGI稳定，九组动作可辨。无裁切、内部透明断层、错误主方向或明显比例跳变。",
-  "review_warnings": [
-    "部分斜向提示较轻",
-    "两处转头间隔不均但脚底与身体尺度稳定",
-    "审查轻微换脚；失败耳形随表情变化"
+  "reviewed_by": "independent visual consistency reviewer",
+  "review_date": "2026-11-23",
+  "sprite_sha256": "7ca6b375400455f922726f095596c53b410edabfe32788e0a8e1130d7fbfbab7",
+  "evidence": [
+    "Cleaned final 1536x2288 sprite",
+    "Native-size 192x208 ordered frame strips and wrap endpoints",
+    "Full final contact sheet",
+    "All16 updated look cells in clockwise order",
+    "All10 GIF frame counts and equal within-animation timings"
   ],
-  "minor_resolution_accepted": true,
-  "repair_rows": []
+  "rows": [
+    {
+      "state": "idle",
+      "verdict": "pass",
+      "reason": "Head/eye micro-motion with stable standing scale and baseline."
+    },
+    {
+      "state": "running-right",
+      "verdict": "pass",
+      "reason": "Right-facing gait, even frame timing and no old extra endpoint hold."
+    },
+    {
+      "state": "running-left",
+      "verdict": "pass",
+      "reason": "Left-facing gait, lettering stays forward and even frame timing."
+    },
+    {
+      "state": "waving",
+      "verdict": "pass",
+      "reason": "Anchored legs/hips and arm-led wave eliminate the old whole-body reset."
+    },
+    {
+      "state": "jumping",
+      "verdict": "pass",
+      "reason": "Small crouch/hop/landing keeps head width and does not shrink the character family."
+    },
+    {
+      "state": "failed",
+      "verdict": "pass",
+      "reason": "Eye/bow progression preserves skull and ear scale without old widening."
+    },
+    {
+      "state": "waiting",
+      "verdict": "pass",
+      "reason": "Expectant tilt and blink remain attached and registered."
+    },
+    {
+      "state": "running",
+      "verdict": "pass",
+      "reason": "Whole-row proportion registration resolves the visibly narrow head/body; restrained pose remains coherent."
+    },
+    {
+      "state": "review",
+      "verdict": "pass",
+      "reason": "Thoughtful hand pose and small head motion eliminate the old crossed-leg return snap."
+    },
+    {
+      "state": "look-first",
+      "verdict": "pass",
+      "reason": "Ordered upper/right/lower-right directions preserve body and warm palette."
+    },
+    {
+      "state": "look-second",
+      "verdict": "pass",
+      "reason": "Ordered lower/left/upper-left directions preserve body and warm palette."
+    }
+  ],
+  "repair_rows": [],
+  "review_warnings": [
+    {
+      "scope": "look",
+      "degrees": [
+        157.5,
+        180
+      ],
+      "severity": "minor",
+      "reason": "Head centering and downward bow advance more at this interval than at adjacent ones; direction remains correct, without a scale or color flash."
+    },
+    {
+      "scope": "look",
+      "degrees": [
+        247.5,
+        270
+      ],
+      "severity": "minor",
+      "reason": "Rotation rises into the left cardinal somewhat faster than neighboring intervals; no reversal or wrong principal quadrant."
+    },
+    {
+      "scope": "running",
+      "severity": "minor",
+      "reason": "Working pose uses restrained hands-together motion and is less expressive than the old multi-pose sequence."
+    },
+    {
+      "scope": "running-right/running-left",
+      "severity": "minor",
+      "reason": "Eight-frame gait retains discrete foot placements; extra final-frame hold is removed."
+    }
+  ],
+  "limitations": "Finite-frame animation remains stylized; two look intervals have uneven angular cadence. This pass applies only to the recorded sprite hash."
 }

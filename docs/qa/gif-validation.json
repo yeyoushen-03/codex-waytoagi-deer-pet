@@ -1,0 +1,198 @@
+{
+  "ok": true,
+  "previews": [
+    {
+      "state": "failed",
+      "frames": 8,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    },
+    {
+      "state": "idle",
+      "frames": 6,
+      "durations_ms": [
+        170,
+        170,
+        170,
+        170,
+        170,
+        170
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    },
+    {
+      "state": "jumping",
+      "frames": 5,
+      "durations_ms": [
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    },
+    {
+      "state": "look-loop",
+      "frames": 16,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    },
+    {
+      "state": "review",
+      "frames": 6,
+      "durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    },
+    {
+      "state": "running-left",
+      "frames": 8,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    },
+    {
+      "state": "running-right",
+      "frames": 8,
+      "durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    },
+    {
+      "state": "running",
+      "frames": 6,
+      "durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    },
+    {
+      "state": "waiting",
+      "frames": 6,
+      "durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    },
+    {
+      "state": "waving",
+      "frames": 4,
+      "durations_ms": [
+        160,
+        160,
+        160,
+        160
+      ],
+      "uniform_timing": true,
+      "size": [
+        192,
+        208
+      ],
+      "loop": 0
+    }
+  ]
+}

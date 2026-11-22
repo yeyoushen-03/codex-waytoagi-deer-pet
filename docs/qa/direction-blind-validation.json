@@ -248,5 +248,11 @@
         "pass": false
       }
     }
-  ]
+  ],
+  "provenance": {
+    "reviewed_version": "1.0.0",
+    "reviewed_sprite_sha256": "4012e68c7ca78e9cb132df46fdb4dcbc365874c10f239af1a484109c1e65f880",
+    "applies_to": "Original coherent look poses retained in 1.0.1 with common registration and material correction; see final direction semantics for fresh review.",
+    "not_a_fresh_blind_test": true
+  }
 }

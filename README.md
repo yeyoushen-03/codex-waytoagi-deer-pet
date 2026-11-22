@@ -8,6 +8,19 @@
   <img src="assets/previews/look-loop.gif" width="192" height="208" alt="WaytoAGI小鹿环顾四周" />
 </p>
 
+## 关于 WaytoAGI 社区
+
+**WaytoAGI（通往 AGI 之路）** 是面向 AI 学习者、创作者与实践者的开放知识库和共学社区，连接 AI 知识、真实实践与城市共学，希望让更多人少走弯路，因 AI 而强大。
+
+社区从持续开放的 AI 知识库出发，整理学习路径、工具、教程和实践案例，并通过晚间共学、城市活动、AI 切磋大会及共创项目，把学习连接到真实作品与实践。知识库内容免费公开，参与者也可以分享经验、贡献内容或参加活动。
+
+- [官网与开放知识库](https://www.waytoagi.com/)
+- [关于 WaytoAGI](https://about.waytoagi.com/)
+- [加入社区与活动入口](https://events.waytoagi.com/)
+- 微信公众号：**通往AGI之路**
+
+以上为社区官方公开资料的简要整理，核对日期：2026 年 11 月 22 日；活动与参与方式以官方页面为准。本仓库是个人制作并分享的 Codex 桌宠，社区介绍不代表官方发布或授权声明。
+
 ## 安装
 
 1. 在 [Releases](https://github.com/yeyoushen-03/codex-waytoagi-deer-pet/releases/latest) 下载 `waytoagi-deer-codex-v2.zip`，解压得到 `agi-deer` 文件夹。
@@ -62,19 +75,6 @@ cp codex-waytoagi-deer-pet/pet.json codex-waytoagi-deer-pet/spritesheet.webp   "
 - 部分斜向提示较轻，个别相邻转头幅度略不均；四个正方向明确，没有方向反转或明显比例跳变。
 
 验收记录见 [docs/qa](docs/qa/)。图像以用户提供的角色参考为基础，由 AI 辅助生成并整理为精灵图。保留鹿角、耳机、服装、材质和正向 AGI 字样。
-
-## 关于 WaytoAGI 社区
-
-**WaytoAGI（通往 AGI 之路）** 是面向 AI 学习者、创作者与实践者的开放知识库和共学社区，连接 AI 知识、真实实践与城市共学，希望让更多人少走弯路，因 AI 而强大。
-
-社区从持续开放的 AI 知识库出发，整理学习路径、工具、教程和实践案例，并通过晚间共学、城市活动、AI 切磋大会及共创项目，把学习连接到真实作品与实践。知识库内容免费公开，参与者也可以分享经验、贡献内容或参加活动。
-
-- [官网与开放知识库](https://www.waytoagi.com/)
-- [关于 WaytoAGI](https://about.waytoagi.com/)
-- [加入社区与活动入口](https://events.waytoagi.com/)
-- 微信公众号：**通往AGI之路**
-
-以上为社区官方公开资料的简要整理，核对日期：2026 年 11 月 22 日；活动与参与方式以官方页面为准。本仓库是个人制作并分享的 Codex 桌宠，社区介绍不代表官方发布或授权声明。
 
 ## 许可证
 
